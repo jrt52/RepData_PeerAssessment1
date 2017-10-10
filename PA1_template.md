@@ -28,9 +28,8 @@ the dataset.
     hist(StepsPerD$steps, breaks=20,
          main="Total Number of Steps Taken per Day", xlab= "Steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-3-1.png)
-2.Calculate and report the mean and median total number of steps taken
-per day
+![](PA1_template_files/figure-markdown_strict/hist1-1.png) 2.Calculate
+and report the mean and median total number of steps taken per day
 
     mean(StepsPerD$steps)
 
@@ -52,7 +51,7 @@ What is the average daily activity pattern?
          main="Time Series, Average Number of Steps per Interval Across All Days", axes = FALSE,
          xlab = " 5-minute interval No.", ylab="Average No. of Steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](PA1_template_files/figure-markdown_strict/itimeseries1-1.png)
 2.Which 5-minute interval, on average across all the days in the
 dataset, contains the maximum number of steps?
 
@@ -115,7 +114,7 @@ estimates of the total daily number of steps?
          main = "Total Number of Steps Taken per Day(imputed)",
          xlab="Steps")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![](PA1_template_files/figure-markdown_strict/hist2-1.png)
 
     mean(StepsPerDI$steps)
 
@@ -159,4 +158,4 @@ simulated data:
            ylab= "Average Number of Steps",
            main= "Average No. of Steps (across all weekday or weekend days)")
 
-![](PA1_template_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![](PA1_template_files/figure-markdown_strict/scatter-1.png)
